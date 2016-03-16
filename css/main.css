@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  margin: 0;
 }
 
 *, *::before, *::after {
@@ -36,17 +35,14 @@ body {
 }
 
 .banner-title {
-  padding: 0;
-  margin: 0 .25em 0 .25em;
-
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
+
+  padding: 0;
   margin: 0;
   line-height: 1.5;
   font-weight: 700;
-
-  display: block;
   width: 100%;
 }
 
@@ -57,7 +53,10 @@ body {
 .banner-text {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: block;
   line-height: 1.5;
+  width: 100%;
+  max-width: 50em;
 }

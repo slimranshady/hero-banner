@@ -40,7 +40,3 @@ css:
       - "rgba\\("
       - "max-height"
       - "overflow: hidden"
-
-screenshots:
-  - path: "index.html"
-    sizes: [650, 1400]
